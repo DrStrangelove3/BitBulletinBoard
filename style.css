@@ -1,0 +1,74 @@
+.logo {
+    font-size: 50px;
+    float: left;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ngClick {
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.feedList {
+    border: 1px solid grey;
+    padding: 0;
+    list-style-type: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.imagePreview {
+    max-width: 500px;
+    height: auto;
+}
+
+.post {
+    padding: 5px;
+}
+
+.activePost {
+    border: 1px dashed grey;
+}
+
+.oddPost {
+    background-color: #EFFBFB;
+}
+
+.postVotes {
+    width: 35px;
+    text-align: center;
+    float: left;
+}
+
+.upVote {
+    font-size:20px;
+    color: orange;
+}
+
+.downVote {
+    font-size:20px;
+    color: #5cbfe0;
+}
+
+.inactiveVote {
+    font-size:20px;
+    color: #9d9d9d;
+}
+
+.postInfo {
+    float: right;
+}
