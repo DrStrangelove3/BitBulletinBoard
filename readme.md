@@ -11,7 +11,13 @@ This software is in alpha and is potentially buggy and not feature complete. I w
 
 ## Installing and Running
 
-The first step is to install PyBitmessage which can be found [here](https://bitmessage.org). The next step is to enable the API using the instruction found [here](https://bitmessage.org/wiki/API_Reference) and you can find your key.dat file with the reference [here](https://bitmessage.org/wiki/Keys.dat). Make sure to use the username: "username", password: "password" and port 8442\. The scripts in the cgi-bin folder need to have 'execute permissions' for 'everyone' on Linux. Finally, make sure PyBitmessage is running and run the command "python -m CGIHTTPServer" in the root folder of this project. You can access BitBulletinBoard at [http://localhost:8000/](http://localhost:8000/).
+The first step is to install PyBitmessage which can be found [here](https://bitmessage.org). The next step is to enable the API using the instruction found [here](https://bitmessage.org/wiki/API_Reference) and you can find your key.dat file with the reference [here](https://bitmessage.org/wiki/Keys.dat). Make sure to use the username: "username", password: "password" and port 8442\. The scripts in the cgi-bin folder need to have 'execute permissions' for 'everyone' on Linux. Finally, make sure PyBitmessage is running and run the command "python -m CGIHTTPServer" in the root folder of this project. You can add the chan BitBulletinBoardTest BM-2cWdS9Tdh2WWvuH3ACvV62iVtLCQxbz2fG which has some sample posts to test that BitBulletinBoard is working. You can access BitBulletinBoard at [http://localhost:8000/](http://localhost:8000/).
+
+## Screenshots
+
+![Screenshot 1](https://raw.githubusercontent.com/DrStrangelove3/BitBulletinBoard/master/Screenshots/BitBulletinBoard-ScreenShot1.jpg)
+
+![Screenshot 2](https://raw.githubusercontent.com/DrStrangelove3/BitBulletinBoard/master/Screenshots/BitBulletinBoard-ScreenShot2.jpg)
 
 ## Development
 
