@@ -3,11 +3,11 @@ import sqlite3, json, xmlrpclib, time, base64, imghdr
 
 
 def is_json(myjson):
-  try:
-    json_object = json.loads(myjson)
-  except ValueError, e:
-    return False
-  return True
+	try:
+		json_object = json.loads(myjson)
+	except: #ValueError, e:     Might cause syntax error
+		return False
+	return True
 
 
 conn = sqlite3.connect('BulletinBoard.db')
@@ -54,7 +54,7 @@ for message in inbox['inboxMessages']:
             c.execute("INSERT INTO posts(timestamp, msgid, chanAddress, poster, title, type, url) VALUES(?, ?, ?, ?, ?, 'image', ?)", (str(time.time()), messageID, message['toAddress'], message['fromAddress'], payloadJSON['title'], "files/" + messageID + "." + imageFormat))
             conn.commit()
 
-    except ValueError, e:
+    except: #ValueError, e:       Might cause syntax error
         print("Warning: Not valid JSON, skipped!")
     
     #Delete unneeded messages
