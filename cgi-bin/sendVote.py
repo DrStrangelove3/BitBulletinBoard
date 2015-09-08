@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python2.7
 import xmlrpclib, base64, json, os, cgi
 
 form = cgi.FieldStorage()

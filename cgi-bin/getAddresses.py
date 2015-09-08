@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python2.7
 import sys, json, collections, xmlrpclib
 
 api = xmlrpclib.ServerProxy("http://username:password@127.0.0.1:8442/")

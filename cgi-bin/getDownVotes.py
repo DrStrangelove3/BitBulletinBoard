@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python2.7
 import sys, sqlite3, json, collections
 
 conn = sqlite3.connect('BulletinBoard.db')

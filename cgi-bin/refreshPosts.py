@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python2.7
 import sqlite3, json, xmlrpclib, time, base64, imghdr
 
 
